@@ -1,13 +1,13 @@
 
 //board
-var blockSize = 30;
+var blockSize = 25;
 var rows = 20;
 var cols = 20;
 var board;
 var context; 
 
 //snake head
-var snakeX = blockSize * 10;
+var snakeX = blockSize * 5;
 var snakeY = blockSize * 5;
 
 var velocityX = 0;
